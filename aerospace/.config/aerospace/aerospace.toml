@@ -65,6 +65,14 @@ if.app-id = 'com.apple.Photos'
   run = 'layout floating'
 
 [[on-window-detected]]
+  if.app-id = 'com.jagex.launcher'
+  run = 'layout floating'
+
+[[on-window-detected]]
+  if.app-id = 'net.runelite.launcher'
+  run = 'layout floating'
+
+[[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
   run = 'move-node-to-workspace 🎵'
 
@@ -114,11 +122,13 @@ alt-1 = 'workspace 💻'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-s = 'workspace 🎵'
+alt-0 = 'workspace 10'
 
 alt-shift-1 = 'move-node-to-workspace 💻'
 alt-shift-2 = 'move-node-to-workspace 2'
 alt-shift-3 = 'move-node-to-workspace 3'
 alt-shift-s = 'move-node-to-workspace 🎵'
+alt-shift-0 = 'move-node-to-workspace 10'
 
 # Toggle's window between fullscreen
 alt-shift-f = 'fullscreen'

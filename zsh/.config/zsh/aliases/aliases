@@ -2,9 +2,12 @@
 # Personal #
 ###########
 alias dots="cd $DOTFILES"
-alias dotsn="cd $DOTFILES/nvim/.config/nvim/"
+alias dotsn="cd $DOTFILES/nvim/.config/nvim"
 alias vault="cd $HOME/Documents/Obsidian/Main/"
+alias dev="cd $HOME/Developer/"
+alias uni="cd $HOME/Uni/"
 alias workspace="cd $HOME/Developer/Workspace/"
+alias vim="nvim"
 # Obsidian review
 alias or="nvim $HOME/Documents/Obsidian/Main/inbox/*.md"
 
@@ -84,7 +87,7 @@ fi
 # Eza #
 #######
 alias ls="eza --color=always --group-directories-first --no-filesize --no-time --no-permissions --no-user"
-alias lst="eza --color=always --group-directories-first --tree --level=2"
+alias lst="eza --color=always --group-directories-first --tree --level=4"
 
 #######
 # Bat #

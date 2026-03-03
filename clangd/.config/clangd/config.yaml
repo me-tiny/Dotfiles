@@ -1,0 +1,26 @@
+If:
+  PathMatch: .*\.c
+CompileFlags:
+  Add:
+    - -std=c17
+    - -pedantic-errors
+    - -Wall
+    - -Wextra
+    - -Wconversion
+    - -Wsign-conversion
+    - -Werror
+    - -Wshadow
+---
+If:
+  PathMatch: .*\.(cpp|cc|cxx|h|hpp)
+CompileFlags:
+  Add:
+    - -std=c++23
+    - -pedantic-errors
+    - -Wall
+    - -Weffc++
+    - -Wextra
+    - -Wconversion
+    - -Wsign-conversion
+    - -Werror
+    - -Wshadow
