@@ -1,5 +1,5 @@
-############
-# Personal #
+###########
+# General #
 ###########
 alias dots="cd $DOTFILES"
 alias dotsn="cd $DOTFILES/nvim/.config/nvim"
