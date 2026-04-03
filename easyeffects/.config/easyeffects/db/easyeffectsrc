@@ -1,5 +1,5 @@
 [Presets]
-lastLoadedOutputPreset=Focal Clear
+lastLoadedOutputPreset=HD6xx
 
 [StreamInputs]
 inputDevice=alsa_input.usb-Focusrite_Vocaster_One_USB_V1TANVK270375A-00.pro-input-0
@@ -10,10 +10,10 @@ visiblePage=pluginsPage
 visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-mostUsedPresets=Focal Clear
+mostUsedPresets=HD6xx,Focal Clear
 outputDevice=alsa_output.usb-Schiit_Audio_Schiit_Modi_3-00.pro-output-0
 plugins=equalizer#0
-usedPresets=Focal Clear:4
+usedPresets=Focal Clear:5,HD6xx:5
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
@@ -21,5 +21,4 @@ visiblePlugin=equalizer#0
 height=790
 lastLoadedInputPreset=NR
 lastLoadedOutputPreset=Focal Clear
-visiblePage=inputPage
 width=1436
