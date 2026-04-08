@@ -13,7 +13,7 @@ visiblePlugin=rnnoise#0
 mostUsedPresets=HD6xx,Focal Clear
 outputDevice=alsa_output.usb-Schiit_Audio_Schiit_Modi_3-00.pro-output-0
 plugins=equalizer#0
-usedPresets=Focal Clear:5,HD6xx:5
+usedPresets=Focal Clear:7,HD6xx:7
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
