@@ -1,6 +1,9 @@
 [Presets]
 lastLoadedOutputPreset=HD6xx
 
+[Spectrum]
+state=false
+
 [StreamInputs]
 inputDevice=alsa_input.usb-Focusrite_Vocaster_One_USB_V1TANVK270375A-00.pro-input-0
 mostUsedPresets=NR,Testing,Main,Noise Reduction
