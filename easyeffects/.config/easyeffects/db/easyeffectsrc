@@ -14,7 +14,7 @@ visiblePlugin=rnnoise#0
 
 [StreamOutputs]
 mostUsedPresets=HD6xx,Focal Clear
-outputDevice=alsa_output.usb-Schiit_Audio_Schiit_Modi_3-00.pro-output-0
+outputDevice=alsa_output.usb-Schiit_Audio_Schiit_Modi_3-00.analog-stereo
 plugins=equalizer#0
 usedPresets=Focal Clear:7,HD6xx:7
 visiblePage=pluginsPage
@@ -24,4 +24,5 @@ visiblePlugin=equalizer#0
 height=790
 lastLoadedInputPreset=NR
 lastLoadedOutputPreset=Focal Clear
+visiblePresetSheetPage=autoloadingPage
 width=1436
