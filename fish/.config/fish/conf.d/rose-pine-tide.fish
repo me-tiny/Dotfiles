@@ -10,9 +10,14 @@ function _rose_pine_tide_pine --on-variable fish_color_pine
     set -q fish_color_pine[1]; or return 0
     set -l pine $fish_color_pine[1]
     set -gx tide_character_color $pine
-    set -gx tide_git_color_branch $pine
     set -gx tide_status_color $pine
     set -gx tide_vi_mode_color_default $pine
+    set -gx tide_git_color_branch $pine
+    set -gx tide_git_color_staged $pine
+    set -gx tide_go_color $pine
+    set -gx tide_rustc_color $pine
+    set -gx tide_distrobox_color $pine
+    set -gx tide_toolbox_color $pine
 end
 
 function _rose_pine_tide_love --on-variable fish_color_love
@@ -30,43 +35,26 @@ function _rose_pine_tide_gold --on-variable fish_color_gold
     set -q fish_color_gold[1]; or return 0
     set -l gold $fish_color_gold[1]
     set -gx tide_cmd_duration_color $gold
-    set -gx tide_git_color_dirty $gold
-    set -gx tide_git_color_staged $gold
-    set -gx tide_git_color_stash $gold
-    set -gx tide_git_color_operation $gold
     set -gx tide_jobs_color $gold
     set -gx tide_shlvl_color $gold
+    set -gx tide_git_color_dirty $gold
+    set -gx tide_git_color_operation $gold
+    set -gx tide_aws_color $gold
+    set -gx tide_ruby_color $gold
 end
 
 function _rose_pine_tide_foam --on-variable fish_color_foam
     set -q fish_color_foam[1]; or return 0
     set -l foam $fish_color_foam[1]
-    set -gx tide_pwd_color_dirs $foam
-    set -gx tide_pwd_color_anchors $foam
-    set -gx tide_git_color_untracked $foam
-    set -gx tide_git_color_upstream $foam
     set -gx tide_vi_mode_color_insert $foam
+    set -gx tide_git_color_untracked $foam
     set -gx tide_nix_shell_color $foam
     set -gx tide_direnv_color $foam
     set -gx tide_node_color $foam
     set -gx tide_python_color $foam
-    set -gx tide_go_color $foam
-    set -gx tide_rustc_color $foam
-    set -gx tide_ruby_color $foam
-    set -gx tide_java_color $foam
-    set -gx tide_php_color $foam
-    set -gx tide_elixir_color $foam
-    set -gx tide_crystal_color $foam
-    set -gx tide_zig_color $foam
     set -gx tide_bun_color $foam
-    set -gx tide_aws_color $foam
     set -gx tide_gcloud_color $foam
-    set -gx tide_kubectl_color $foam
-    set -gx tide_terraform_color $foam
-    set -gx tide_pulumi_color $foam
     set -gx tide_docker_color $foam
-    set -gx tide_distrobox_color $foam
-    set -gx tide_toolbox_color $foam
 end
 
 function _rose_pine_tide_iris --on-variable fish_color_iris
@@ -77,11 +65,24 @@ function _rose_pine_tide_iris --on-variable fish_color_iris
     set -gx tide_context_color_ssh $iris
     set -gx tide_time_color $iris
     set -gx tide_vi_mode_color_visual $iris
+    set -gx tide_pwd_color_dirs $iris
+    set -gx tide_git_color_upstream $iris
+    set -gx tide_git_color_stash $iris
+    set -gx tide_kubectl_color $iris
+    set -gx tide_terraform_color $iris
+    set -gx tide_java_color $iris
+    set -gx tide_elixir_color $iris
 end
 
 function _rose_pine_tide_rose --on-variable fish_color_rose
     set -q fish_color_rose[1]; or return 0
-    set -gx tide_vi_mode_color_replace $fish_color_rose[1]
+    set -l rose $fish_color_rose[1]
+    set -gx tide_vi_mode_color_replace $rose
+    set -gx tide_pwd_color_anchors $rose
+    set -gx tide_php_color $rose
+    set -gx tide_crystal_color $rose
+    set -gx tide_zig_color $rose
+    set -gx tide_pulumi_color $rose
 end
 
 function _rose_pine_tide_subtle --on-variable fish_color_subtle
