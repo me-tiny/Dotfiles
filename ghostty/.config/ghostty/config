@@ -106,3 +106,5 @@ keybind = super+alt+i=inspector:toggle
 keybind = ctrl+equal=increase_font_size:0.25
 keybind = ctrl+-=decrease_font_size:0.25
 keybind = ctrl+0=reset_font_size
+
+# vim: ft=conf
