@@ -3,8 +3,6 @@ alias dotsn "cd $DOTFILES/nvim/.config/nvim"
 alias vault "cd $HOME/Documents/Obsidian/Main"
 alias dev "cd $HOME/Developer"
 alias uni "cd $HOME/Uni"
-alias unimnt "cd /mnt/uni"
-alias kuni "sudo killall openvpn && sudo killall sshfs"
 alias vim nvim
 alias gvim "nvim --listen /tmp/godot-nvim.pipe"
 alias orev "nvim $HOME/Documents/Obsidian/Main/inbox/*.md"
