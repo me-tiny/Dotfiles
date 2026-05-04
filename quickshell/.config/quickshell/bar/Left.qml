@@ -1,27 +1,28 @@
 import QtQuick
 import QtQuick.Layouts
 
-import qs.widgets as W
+import qs.config
+import qs.components
+import qs.bar.widgets as W
 
 Item {
-    id: left
+    id: root
     required property var panel
-    required property var theme
 
     anchors.left: parent.left
     anchors.top: parent.top
     anchors.bottom: parent.bottom
-    anchors.leftMargin: 8
+    anchors.leftMargin: Theme.padding
 
     implicitWidth: row.implicitWidth
 
     RowLayout {
         id: row
         anchors.fill: parent
-        spacing: 8
+        spacing: Theme.spacing
 
-        W.Workspaces { panel: left.panel; theme: left.theme }
-        W.Separator { theme: left.theme }
-        W.ActiveWindow { theme: left.theme }
+        W.Workspaces { panel: root.panel }
+        Separator { }
+        W.ActiveWindow { }
     }
 }
