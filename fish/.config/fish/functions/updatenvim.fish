@@ -12,7 +12,7 @@ function updatenvim -d "build nvim from source"
             echo "sudo privileges needed for $install_prefix"
             $sudo_cmd -v
         else
-            echo "error: sudo required but not found" >&2
+            echo "error: sudo required but not found"
             return 1
         end
     end
@@ -28,7 +28,7 @@ function updatenvim -d "build nvim from source"
 
     echo "cloning nvim into $tmp_dir"
     if not git clone --depth 1 $repo_url $tmp_dir
-        echo "error: failed to clone repo" >&2
+        echo "error: failed to clone repo"
         return 1
     end
 
@@ -36,14 +36,14 @@ function updatenvim -d "build nvim from source"
 
     echo "building nvim ($build_type)"
     if not make CMAKE_BUILD_TYPE=$build_type CMAKE_EXTRA_FLAGS=$extra_flags
-        echo "error: build failed" >&2
+        echo "error: build failed"
         popd
         return 1
     end
 
     echo "installing to $install_prefix"
     if not $sudo_cmd make install
-        echo "error: install failed" >&2
+        echo "error: install failed"
         popd
         return 1
     end
