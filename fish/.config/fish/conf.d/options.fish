@@ -8,4 +8,6 @@ set -g fish_cursor_replace_one underscore
 
 set -g fish_transient_prompt 1
 
-fish_config theme choose "rose-pine"
+if not set -q fish_color_pine
+    fish_config theme choose "rose-pine"
+end
