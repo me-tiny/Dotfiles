@@ -88,7 +88,7 @@ background-opacity = 1
 # Misc
 scrollback-limit = 10000000
 custom-shader-animation = false
-shell-integration-features = no-cursor,no-sudo,title
+shell-integration-features = no-cursor,no-sudo,title,ssh-env
 bell-features = no-system,no-title,no-attention
 
 # Clipboard
